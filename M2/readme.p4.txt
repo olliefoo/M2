@@ -1,2 +1,2 @@
 Ollie Foo
-olliefoo@yahoo.com
+ofoo3@gatech.edu
