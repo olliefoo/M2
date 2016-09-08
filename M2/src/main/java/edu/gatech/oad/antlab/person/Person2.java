@@ -39,7 +39,7 @@ public class Person2 {
 			int newRand = rand.nextInt(input.length());
 			if (holder[newRand] == 0) {
 				holder[newRand] = 1;
-				newString = newString + input[newRand];
+				newString = newString + input.charAt(newRand);
 				counter++;
 			}
 
