@@ -4,7 +4,7 @@ apply plugin: 'java'
 version = '1.0'
 
 dependencies {
-    compile files('lib/resources.jar')
+    compile name: 'resources'
 }
 
 jar {
@@ -14,7 +14,5 @@ jar {
 }
 
 repositories {
-    flatDir {
-        dirs 'lib'
-    }
+    flatDir name: 'localRepository', dirs: 'lib'
 }
